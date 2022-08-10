@@ -1,0 +1,45 @@
+:root{
+    --negro: #000000ea;
+    --blanco: rgb(245, 245, 245);
+    --sombra: #1f1b1b;
+    --titulo:'Fjalla One', sans-serif;
+    --texto: 'PT Sans Narrow', sans-serif;
+    --comentarios: 'Caveat', cursive;
+    --colorido: rgb(45, 40, 41);
+    --amarillo:  #e0b31ee2;
+}
+.proyecto-conteiner{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1f1b1b;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    flex-direction: column;
+
+}
+
+.conteiner-pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+@media (min-width: 768px) {
+    .conteiner-pro{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 2rem;
+        margin: 2rem;
+    }
+  
+}
+
+
+
+

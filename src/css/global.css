@@ -1,0 +1,75 @@
+:root{
+    --negro: #000000ea;
+    --blanco: rgb(245, 245, 245);
+    --sombra: #1f1b1b;
+    --titulo:'Fjalla One', sans-serif;
+    --texto: 'PT Sans Narrow', sans-serif;
+    --comentarios: 'Caveat', cursive;
+    --colorido: rgb(45, 40, 41);
+    --amarillo:  #e0b31ee2;
+}
+
+html {/*https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+  }
+body{
+    background-color: var(--blanco);
+    margin: 0;
+    background-repeat: no-repeat;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 2rem;
+        font-family: var(--texto);
+       
+}
+button{
+    border: none ;
+}
+img{
+    width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.contenedorGrande{
+    max-width: 300rem;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:var(--negro);
+    font-family: var(--titulo); 
+}
+ h2, h3{
+    text-align: center;
+    color:var(--negro);
+    font-family: var(--titulo);
+    
+   
+}
+h1{
+ font-size: 5rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2rem;
+}
+.logo-img{
+    width: 5vw;
+    height: auto;
+    border-radius: 50%;
+}
+.btn-homeF{
+    margin: 2rem;
+}
