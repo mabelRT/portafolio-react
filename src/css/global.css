@@ -28,7 +28,7 @@ a{
 p{
     font-size: 2rem;
         font-family: var(--texto);
-       
+       margin:0;
 }
 button{
     border: none ;
@@ -53,7 +53,8 @@ h1{
     text-align: center;
     color:var(--negro);
     font-family: var(--titulo);
-    
+    margin: 0;
+    padding: 0;
    
 }
 h1{

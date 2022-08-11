@@ -18,24 +18,34 @@
     justify-content: center;
     border-radius: 1rem;
     flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
 
 }
-
-.conteiner-pro{
+.conteiner-proyectos{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
+.proyecto-conteiner img{
+    border-radius: 1rem;
+}
+.proyecto-conteiner p{
+    line-height: 3rem;
+}
 
+.proyecto-btn-conteiner{
+    display: flex;
+}
+.proyecto-btn{
+    margin-left: 1.5rem;
+}
 
 
 @media (min-width: 768px) {
     .conteiner-pro{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr ;
-        gap: 2rem;
-        margin: 2rem;
+     
     }
   
 }
