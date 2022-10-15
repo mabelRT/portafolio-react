@@ -1,33 +1,43 @@
 :root{
     --negro: #000000ea;
-    --blanco: rgb(245, 245, 245);
+    --blanco: white;
     --sombra: #1f1b1b;
-    --titulo:'Fjalla One', sans-serif;
     --texto: 'PT Sans Narrow', sans-serif;
     --comentarios: 'Caveat', cursive;
     --colorido: rgb(45, 40, 41);
-    --amarillo:  #e0b31ee2;
+    --rosa:  #d76483;
+    --plomo: #978375;
+  --rosaClaro: #d7b7b1;
 }
 .proyecto-conteiner{
-    border-width: 1px;
-    border-style: solid;
-    border-color: #1f1b1b;
-    border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 1rem;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem;
+    padding: 3rem;
+    margin-bottom: 4rem;
+    background-color: white;
+    display: flex;
+        flex-direction: column;
+    box-shadow: 17px 25px 6px -10px rgba(129,113,113,0.75);
+    -webkit-box-shadow: 17px 25px 6px -10px rgba(129,113,113,0.75);
+    -moz-box-shadow: 17px 25px 6px -10px rgba(129,113,113,0.75);
 
+}
+.proyecto-text{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#978375;
+    width: 50vw;
+    padding-left: 3rem;
 }
 .conteiner-proyectos{
     display: flex;
     flex-direction: column;
+    background-color: #d7b7b1;
+    justify-items: center;
+    align-items: center;
 }
 .proyecto-conteiner img{
-    border-radius: 1rem;
+    max-width: 80rem;
 }
 .proyecto-conteiner p{
     line-height: 3rem;
@@ -38,18 +48,36 @@
 }
 .proyecto-btn{
     margin-left: 1.5rem;
+    margin-top: 2rem;
 }
 
-
-@media (min-width: 768px) {
-    .conteiner-pro{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-     
+ .conteiner-pro{
+     width: 75vw;
+    
+   
+}
+@media (min-width: 764px) {
+    .proyecto-conteiner{
+        flex-direction: row ;
     }
-  
 }
+.img-conteiner{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+  
+.proyectos-title{
+    color:#978375;
 
-
-
-
+}
+.proyecto-logos{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img-icon{
+    width: 3rem;
+}

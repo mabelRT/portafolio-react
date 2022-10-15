@@ -1,20 +1,22 @@
 :root{
     --negro: #000000ea;
-    --blanco: rgb(245, 245, 245);
+    --blanco: white;
     --sombra: #1f1b1b;
-    --titulo:'Fjalla One', sans-serif;
     --texto: 'PT Sans Narrow', sans-serif;
     --comentarios: 'Caveat', cursive;
     --colorido: rgb(45, 40, 41);
-    --amarillo:  #e0b31ee2;
+    --amarillo:  #d76483;
+    --plomo: #978375;
+  --rosaClaro: #d7b7b1;
 }
 
 html {/*https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
     box-sizing: border-box;
     font-size: 62.5%; /*1rem = 10px*/
+   
   }
 body{
-    background-color: var(--blanco);
+
     margin: 0;
     background-repeat: no-repeat;
 }
@@ -27,7 +29,7 @@ a{
 }
 p{
     font-size: 2rem;
-        font-family: var(--texto);
+  
        margin:0;
 }
 button{
@@ -46,13 +48,12 @@ img{
 }
 h1{
     text-align: center;
-    color:var(--negro);
-    font-family: var(--titulo); 
+    color: #d7b7b1;
+    font-family: 'Lobster Two', cursive; 
 }
  h2, h3{
     text-align: center;
-    color:var(--negro);
-    font-family: var(--titulo);
+    font-family: 'Fredoka One', cursive;
     margin: 0;
     padding: 0;
    
@@ -73,4 +74,20 @@ h3{
 }
 .btn-homeF{
     margin: 2rem;
+}
+
+.section-container{
+    background-color: var(--blanco);
+}
+header{
+    position: fixed;
+  width: 100%;
+  z-index: 1000
+}
+.color-plomo{
+    color: #978375 ;
+}
+.footer{
+    width: 100%;
+    background-color: #978375 ;
 }
