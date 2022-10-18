@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { Route, Routes,HashRouter} from "react-router-dom";
 import HomePages from "./componentes/HomePages";
 import MiPerfil from "./componentes/MiPerfil";
 import Proyectos from "./componentes/Proyectos.jsx";
@@ -7,14 +7,15 @@ import Informacion from "./componentes/Informacion";
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
+    
       <Routes>
         <Route path="/" element={<HomePages/>}/>
         <Route path="/proyectos" element={<Proyectos/>}/>
         <Route path="/miperfil" element={<MiPerfil/>}/>
         <Route path="/informacion" element={<Informacion/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
     
   );
